@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+}
+.cover{
+    min-height: 400px;
+    background-image: url(https://image.tmdb.org/t/p/original//9n2tJBplPbgR2ca05hS5CKXwP2c.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat
+}
+
+.netimg{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+.netimg p{
+    color: red;
+    font-size: 22px;
+    font-style: italic;
+    font-family:  Helvetica, sans-serif;
+    margin-left: 11px;
+    font-weight: bold;
+}
+.netimg img{
+    max-width: 34px;
+    margin-right: 14px;
+    margin-top: 6px;
+}
+.movieHeading{
+    margin-top: 50px;
+}
+.movieHeading h2{
+    padding: 13px;
+    color: white;
+}
+.btn{
+    margin-left: 13px;
+    
+    margin-top: 4px;
+
+}
+.btn button{
+    min-width: 61px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 4px;
+    margin-right: 3px;
+
+}
+.description{
+    margin-top: 28px;
+    margin-left: 14px;
+}
+.description p{
+    max-width: 514px;
+    font-size: 15px;
+    color: white;
+    
+}
+.netflixOrignal{
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.netflixOrignal h2{
+    margin-left: 5px;
+    color: white;
+
+}
+#orignal  img{
+    max-width: 207px;
+    max-height: 225px;
+    margin-top: 22px;
+    border-radius: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#orignal img:hover{
+transform: scale(1.1);
+transition: all 0.3s ease-out;
+}
+#trend img:hover{
+transform: scale(1.1);
+transition: all 0.3s ease-out;
+}
+.Trending{
+    margin-left: 13px;
+    margin-top: 13px;
+}
+.Trending h2{
+    color: white;
+    margin-left: 5px;
+}
+#trend  img{
+    max-width: 207px;
+    max-height: 225px;
+    margin-top: 22px;
+    border-radius: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+}
